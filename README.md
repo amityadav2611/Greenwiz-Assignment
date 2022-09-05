@@ -1,18 +1,18 @@
 # Greenwiz-Assignment
 
-   Assignment
+   #Assignment
 
-##Overview:
+#Overview:
 Write a code which will take a website link as an input and download images of that.
 
 
-##I have done it in four steps:-
+#I have done it in four steps:-
 Step 1:- In step 1, I have imported all the modules which are used in our project.
 Step 2:- Here we write the logic where we found a url of images from websites.
 Step 3:- Here we write the logic where we downloaded the file from the url of images of websites.
 Step 4:-  Once the url file is downloaded after that we write the logic where we have to store the images in our local folders.
 
-##Modules Used:-
+#Modules Used:-
 1.cheerio:- Cheerio is a tool for parsing HTML and XML in Node. js, and is very popular with over 23k stars on GitHub. It is fast, flexible, and easy to use.
 Know more → https://www.npmjs.com/package/cheerio
 
@@ -29,7 +29,7 @@ Know more → https://www.npmjs.com/package/fs
 Know more →https://www.npmjs.com/package/mime-types 
 
 
-##Why we used this module in this assignment:-
+#Why we used this module in this assignment:-
 1.With the help of cheerio we are parsing the html document of the websites for getting all the url which is written in the program and also we are finding the location of the url of  images with this module.
 2.With the help of axios library we are sending the request of our domain and we get the response from the  domain which is what we want so that's why we use this module.
 3.After that we are using fs module for the read of file and write in our directory 
